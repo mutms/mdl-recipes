@@ -1,0 +1,194 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
+name: MuTMS dev on Moodle 5.2
+contributed_by: mutms
+extra:
+  mudev:
+    release: mutms
+base:
+  mdlbranch: "502"
+  source:
+    git:
+      remotes:
+        origin: git@github.com:mutms/patches.git
+      ref: origin/patch/mutms/MOODLE_502_STABLE
+  localbranch: MOODLE_502_STABLE
+plugins:
+  - name: mutms/tool_mulib
+    relpath: public/admin/tool/mulib
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_mulib.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_muprog
+    relpath: public/admin/tool/muprog
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_muprog.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_mucertify
+    relpath: public/admin/tool/mucertify
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_mucertify.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_mutenancy
+    relpath: public/admin/tool/mutenancy
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_mutenancy.git
+        ref: origin/MOODLE_502_STABLE
+    localbranch: MOODLE_502_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_mutrain
+    relpath: public/admin/tool/mutrain
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_mutrain.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_murelation
+    relpath: public/admin/tool/murelation
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_murelation.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_muhome
+    relpath: public/admin/tool/muhome
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_muhome.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_musudo
+    relpath: public/admin/tool/musudo
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_musudo.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_muloginas
+    relpath: public/admin/tool/muloginas
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_muloginas.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_mupwned
+    relpath: public/admin/tool/mupwned
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_mupwned.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/enrol_muprog
+    relpath: public/enrol/muprog
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-enrol_muprog.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/block_muprog_my
+    relpath: public/blocks/muprog_my
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-block_muprog_my.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/block_muprogmyoverview
+    relpath: public/blocks/muprogmyoverview
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-block_muprogmyoverview.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/block_mucertify_my
+    relpath: public/blocks/mucertify_my
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-block_mucertify_my.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/customfield_mutrain
+    relpath: public/customfield/field/mutrain
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-customfield_mutrain.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/mod_mubook
+    relpath: public/mod/mubook
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-mod_mubook.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/certificateelement_muprog
+    relpath: public/admin/tool/certificate/element/muprog
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-certificateelement_muprog.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/certificateelement_mucertify
+    relpath: public/admin/tool/certificate/element/mucertify
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-certificateelement_mucertify.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
+    extra: {mudev: {release: mutms}}
+  - name: mutms/tool_certificate
+    relpath: public/admin/tool/certificate
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_certificate.git
+          upstream: https://github.com/moodleworkplace/moodle-tool_certificate.git
+        ref: origin/MOODLE_502_STABLE
+    localbranch: MOODLE_502_STABLE
+  - name: mutms/tool_mucatalog
+    relpath: public/admin/tool/mucatalog
+    source:
+      git:
+        remotes:
+          origin: git@github.com:mutms/moodle-tool_mucatalog.git
+        ref: origin/MOODLE_500_STABLE
+    localbranch: MOODLE_500_STABLE
