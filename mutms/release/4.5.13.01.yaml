@@ -1,0 +1,90 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
+name: MuTMS full 4.5.13.01
+contributed_by: mutms
+description: Full MuTMS on Moodle 4.5.13 — patched core with multi-tenancy, all plugins. Pinned release.
+catalog: ../../../mdl-plugins
+base:
+  mdlbranch: "405"
+  source:
+    git:
+      remotes:
+        origin: https://github.com/mutms/patches.git   # patched core: merged patch/mutms branch (mutenancy + mutest + distro)
+      ref: patch-4.5.13.01   # tag on patch/mutms/MOODLE_405_STABLE
+  strippublic: true   # no public/ layout (pre-5.1)
+plugins:
+  - name: mutms/tool_mulib
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_muprog
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_mucertify
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_mutrain
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_murelation
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_muhome
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_musudo
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_muloginas
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_mupwned
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/enrol_muprog
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/block_muprog_my
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/block_muprogmyoverview
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/block_mucertify_my
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/customfield_mutrain
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/mod_mubook
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/certificateelement_muprog
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/certificateelement_mucertify
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_mutenancy
+    source:
+      git:
+        ref: v4.5.13.01
+  - name: mutms/tool_certificate
+    source:
+      git:
+        ref: fd85380c4322d9df6ff7a13babd828d9776317f5   # fork: no MuTMS tag — pinned to MOODLE_400_STABLE commit

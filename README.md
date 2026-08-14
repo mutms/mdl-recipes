@@ -3,7 +3,7 @@
 Recipe catalogue for [mudev](https://github.com/mutms/mudev): Moodle site definitions
 (core + optional patches + a selection of plugins), grouped at
 `<vendor>/<stream>/<version>.yaml` (identifier `vendor/stream/version`) — e.g.
-`mutms/dev/5.2` (rolling dev workspace) or `mutms/full/5.2.1.01` (pinned release). See
+`mutms/dev/5.2` (rolling dev workspace) or `mutms/release/5.2.2.01` (pinned release). See
 mudev's `docs/recipe-format.md` for the format and the embedded JSON Schema.
 
 ## License & contributing

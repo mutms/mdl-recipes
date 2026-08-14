@@ -1,0 +1,86 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
+name: MuTMS moodle 5.0.9.01
+contributed_by: mutms
+description: MuTMS on unmodified Moodle 5.0.9 — all MuTMS plugins except multi-tenancy; no core Moodle changes. Pinned release.
+catalog: ../../../mdl-plugins
+base:
+  mdlbranch: "500"
+  source:
+    git:
+      remotes:
+        origin: https://github.com/moodle/moodle.git   # stock Moodle core — no MuTMS core changes
+      ref: v5.0.9
+  strippublic: true   # no public/ layout (pre-5.1)
+plugins:
+  - name: mutms/tool_mulib
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_muprog
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_mucertify
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_mutrain
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_murelation
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_muhome
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_musudo
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_muloginas
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_mupwned
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/enrol_muprog
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/block_muprog_my
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/block_muprogmyoverview
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/block_mucertify_my
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/customfield_mutrain
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/mod_mubook
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/certificateelement_muprog
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/certificateelement_mucertify
+    source:
+      git:
+        ref: v5.0.9.01
+  - name: mutms/tool_certificate
+    source:
+      git:
+        ref: 3f9d83e26cadf43a1660eac94f3176f9aa92dd0a   # fork: no MuTMS tag — pinned to MOODLE_500_STABLE commit
