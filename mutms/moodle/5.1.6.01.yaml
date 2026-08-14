@@ -82,4 +82,4 @@ plugins:
   - name: mutms/tool_certificate
     source:
       git:
-        ref: 3f9d83e26cadf43a1660eac94f3176f9aa92dd0a   # fork: no MuTMS tag — pinned to MOODLE_500_STABLE commit
+        ref: v5.0.8
