@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
 name: MuTMS programs 5.2.1.01
 contributed_by: mutms
-description: MuTMS Programs on unmodified Moodle 5.2.1 — programs, certifications and training on stock Moodle core. Pinned release; great for client demos.
+description: MuTMS Programs on unmodified Moodle 5.2.1 - programs, certifications and training on stock Moodle core. Pinned release; great for client demos.
 catalog: ../../../mdl-plugins
 base:
   mdlbranch: "502"
   source:
     git:
       remotes:
-        origin: https://github.com/moodle/moodle.git   # stock Moodle core — programs need no core changes
+        origin: https://github.com/moodle/moodle.git   # stock Moodle core - programs need no core changes
       ref: v5.2.1
 plugins:
   - name: mutms/tool_mulib

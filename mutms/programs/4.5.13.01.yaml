@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
 name: MuTMS programs 4.5.13.01
 contributed_by: mutms
-description: MuTMS Programs on unmodified Moodle 4.5.13 — programs, certifications and training on stock Moodle core. Pinned release; great for client demos.
+description: MuTMS Programs on unmodified Moodle 4.5.13 - programs, certifications and training on stock Moodle core. Pinned release; great for client demos.
 catalog: ../../../mdl-plugins
 base:
   mdlbranch: "405"
   source:
     git:
       remotes:
-        origin: https://github.com/moodle/moodle.git   # stock Moodle core — programs need no core changes
+        origin: https://github.com/moodle/moodle.git   # stock Moodle core - programs need no core changes
       ref: v4.5.13
   strippublic: true   # no public/ layout (pre-5.1)
 plugins:

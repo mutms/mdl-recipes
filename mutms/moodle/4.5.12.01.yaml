@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
 name: MuTMS moodle 4.5.12.01
 contributed_by: mutms
-description: MuTMS on unmodified Moodle 4.5.12 — all MuTMS plugins except multi-tenancy; no core Moodle changes. Pinned release.
+description: MuTMS on unmodified Moodle 4.5.12 - all MuTMS plugins except multi-tenancy; no core Moodle changes. Pinned release.
 catalog: ../../../mdl-plugins
 base:
   mdlbranch: "405"

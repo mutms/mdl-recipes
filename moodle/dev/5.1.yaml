@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
-name: Moodle 5.2.1
+name: Moodle 5.1.x+
 contributed_by: mutms
-description: Unmodified Moodle 5.2.1 - a plain Moodle base recipe (no plugins).
+description: Unmodified MOODLE_501_STABLE branch - a plain Moodle base recipe (no plugins).
 base:
-  mdlbranch: "502"
+  mdlbranch: "501"
   source:
     git:
       remotes:
         origin: https://github.com/moodle/moodle.git
-      ref: v5.2.1
+      ref: MOODLE_501_STABLE
 plugins: []

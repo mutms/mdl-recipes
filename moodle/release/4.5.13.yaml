@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
 name: Moodle 4.5.13
 contributed_by: mutms
-description: Unmodified Moodle 4.5.13 — a plain Moodle base recipe (no plugins).
+description: Unmodified Moodle 4.5.13 - a plain Moodle base recipe (no plugins).
 base:
   mdlbranch: "405"
   source:
