@@ -8,11 +8,15 @@ mudev's `docs/recipe-format.md` for the format and the embedded JSON Schema.
 
 ## License & contributing
 
-The recipe data is licensed **CC BY 4.0** ([LICENSE](LICENSE)) — free to share, adapt, and use
-commercially. The **attribution required by the license includes retaining each recipe's
-`contributed_by` value** (alongside crediting the MuTMS catalogue). Contributions are welcome
-under the same license: add a recipe with your `contributed_by`, and that credit — and your
-authorship of the recipe — travels with it wherever the data is reused.
+The recipe data is dedicated to the public domain under **CC0 1.0** ([LICENSE](LICENSE)) —
+copy, adapt and use it for anything, commercially or not, with no attribution required. Each
+recipe's `contributed_by` value records who wrote it; keeping that credit when you reuse a
+recipe is appreciated, but it is a courtesy, not a license condition. Contributions are
+welcome under the same terms: by adding a recipe you dedicate it to the public domain too
+(add your `contributed_by` so the courtesy credit can travel with it).
+
+Data imported from external databases keeps its own license; any such import lives in a
+clearly marked location with its source and license stated.
 
 ## Trademarks
 
