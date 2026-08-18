@@ -9,7 +9,7 @@ base:
   source:
     git:
       remotes:
-        origin: git@github.com:mutms/patches.git
+        origin: https://github.com/mutms/patches.git
       ref: origin/patch/mutms/MOODLE_501_STABLE
   localbranch: MOODLE_501_STABLE
 plugins:
@@ -18,7 +18,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_mulib.git
+          origin: https://github.com/mutms/moodle-tool_mulib.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -27,7 +27,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_muprog.git
+          origin: https://github.com/mutms/moodle-tool_muprog.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -36,7 +36,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_mucertify.git
+          origin: https://github.com/mutms/moodle-tool_mucertify.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -45,7 +45,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_mutenancy.git
+          origin: https://github.com/mutms/moodle-tool_mutenancy.git
         ref: origin/MOODLE_501_STABLE
     localbranch: MOODLE_501_STABLE
     extra: {mudev: {release: mutms}}
@@ -54,7 +54,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_mutrain.git
+          origin: https://github.com/mutms/moodle-tool_mutrain.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -63,7 +63,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_murelation.git
+          origin: https://github.com/mutms/moodle-tool_murelation.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -72,7 +72,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_muhome.git
+          origin: https://github.com/mutms/moodle-tool_muhome.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -81,7 +81,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_musudo.git
+          origin: https://github.com/mutms/moodle-tool_musudo.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -90,7 +90,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_muloginas.git
+          origin: https://github.com/mutms/moodle-tool_muloginas.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -99,7 +99,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_mupwned.git
+          origin: https://github.com/mutms/moodle-tool_mupwned.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -108,7 +108,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-enrol_muprog.git
+          origin: https://github.com/mutms/moodle-enrol_muprog.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -117,7 +117,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-block_muprog_my.git
+          origin: https://github.com/mutms/moodle-block_muprog_my.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -126,7 +126,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-block_muprogmyoverview.git
+          origin: https://github.com/mutms/moodle-block_muprogmyoverview.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -135,7 +135,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-block_mucertify_my.git
+          origin: https://github.com/mutms/moodle-block_mucertify_my.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -144,7 +144,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-customfield_mutrain.git
+          origin: https://github.com/mutms/moodle-customfield_mutrain.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -153,7 +153,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-mod_mubook.git
+          origin: https://github.com/mutms/moodle-mod_mubook.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -162,7 +162,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-certificateelement_muprog.git
+          origin: https://github.com/mutms/moodle-certificateelement_muprog.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -171,7 +171,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-certificateelement_mucertify.git
+          origin: https://github.com/mutms/moodle-certificateelement_mucertify.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
     extra: {mudev: {release: mutms}}
@@ -180,7 +180,7 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_certificate.git
+          origin: https://github.com/mutms/moodle-tool_certificate.git
           upstream: https://github.com/moodleworkplace/moodle-tool_certificate.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
@@ -189,6 +189,6 @@ plugins:
     source:
       git:
         remotes:
-          origin: git@github.com:mutms/moodle-tool_mucatalog.git
+          origin: https://github.com/mutms/moodle-tool_mucatalog.git
         ref: origin/MOODLE_500_STABLE
     localbranch: MOODLE_500_STABLE
