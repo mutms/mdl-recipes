@@ -8,5 +8,5 @@ base:
     git:
       remotes:
         origin: https://github.com/moodle/moodle.git
-      ref: MOODLE_502_STABLE
+      ref: origin/MOODLE_502_STABLE
 plugins: []

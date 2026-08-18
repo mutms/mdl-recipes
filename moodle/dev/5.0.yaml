@@ -8,6 +8,6 @@ base:
     git:
       remotes:
         origin: https://github.com/moodle/moodle.git
-      ref: MOODLE_500_STABLE
+      ref: origin/MOODLE_500_STABLE
   strippublic: true                 # no public/ layout (pre-5.1)
 plugins: []

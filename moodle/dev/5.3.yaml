@@ -8,5 +8,5 @@ base:
     git:
       remotes:
         origin: https://github.com/moodle/moodle.git
-      ref: main
+      ref: origin/main
 plugins: []
