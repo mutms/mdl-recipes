@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
+name: IOMAD 4.5.x+
+contributed_by: mutms
+description: Unmodified IOMAD_405_STABLE branch of IOMAD.
+base:
+  mdlbranch: "405"
+  source:
+    git:
+      remotes:
+        origin: https://github.com/iomad/iomad.git
+      ref: origin/IOMAD_405_STABLE
+  strippublic: true                 # no public/ layout (pre-5.1)
+plugins: []

@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
+name: IOMAD 5.1.x+
+contributed_by: mutms
+description: Unmodified IOMAD_501_STABLE branch of IOMAD.
+base:
+  mdlbranch: "501"
+  source:
+    git:
+      remotes:
+        origin: https://github.com/iomad/iomad.git
+      ref: origin/IOMAD_501_STABLE
+plugins: []
