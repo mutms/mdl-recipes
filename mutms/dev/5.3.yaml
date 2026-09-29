@@ -10,7 +10,7 @@ base:
     git:
       remotes:
         origin: https://github.com/mutms/patches.git
-      ref: origin/patch/mutms/MOODLE_503_DEV
+      ref: origin/patch/mutenancy/MOODLE_503_DEV
   localbranch: patch/mutms/MOODLE_503_DEV
 plugins:
   - name: mutms/tool_mulib
