@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/go/schema/recipe.schema.json
 name: MuTMS moodle 4.5.13.01
 contributed_by: mutms
 description: MuTMS on unmodified Moodle 4.5.13 - all MuTMS plugins except multi-tenancy; no core Moodle changes. Pinned release.
