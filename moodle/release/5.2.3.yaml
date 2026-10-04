@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/recipe.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/go/schema/recipe.schema.json
 name: Moodle 5.2.3
 contributed_by: mutms
 description: Unmodified Moodle 5.2.3 - a plain Moodle base recipe (no plugins).

@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/go/schema/recipe.schema.json
-name: Moodle 5.0.10
+name: MuTMS full 5.0.11.01
 contributed_by: mutms
-description: Unmodified Moodle 5.0.10 - a plain Moodle base recipe (no plugins).
+description: Full MuTMS on Moodle 5.0.11 - patched core with multi-tenancy, all plugins. Pinned release.
 base:
   mdlbranch: "500"
   source:
     git:
       remotes:
-        origin: https://github.com/moodle/moodle.git
-      ref: v5.0.10
+        origin: https://github.com/mutms/mutms.git
+      ref: MuTMS-5.0.11-01
   strippublic: true
 plugins: []

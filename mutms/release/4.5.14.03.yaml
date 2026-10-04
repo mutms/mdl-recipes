@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/go/schema/recipe.schema.json
-name: IOMAD 4.5.x+
+name: MuTMS full 4.5.14.03
 contributed_by: mutms
-description: Unmodified IOMAD_405_STABLE branch of IOMAD.
+description: Full MuTMS on Moodle 4.5.14 - patched core with multi-tenancy, all plugins. Pinned release.
 base:
   mdlbranch: "405"
   source:
     git:
       remotes:
-        origin: https://github.com/iomad/iomad.git
-      ref: origin/IOMAD_405_STABLE
+        origin: https://github.com/mutms/mutms.git
+      ref: MuTMS-4.5.14-03
   strippublic: true
 plugins: []

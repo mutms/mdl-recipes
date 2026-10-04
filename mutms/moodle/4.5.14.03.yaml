@@ -1,85 +1,86 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/go/schema/recipe.schema.json
-name: MuTMS moodle 5.2.2.01
+name: MuTMS moodle 4.5.14.03
 contributed_by: mutms
-description: MuTMS on unmodified Moodle 5.2.2 - all MuTMS plugins except multi-tenancy; no core Moodle changes. Pinned release.
+description: MuTMS on unmodified Moodle 4.5.14 - all MuTMS plugins except multi-tenancy; no core Moodle changes. Pinned release.
 catalog: ../../../mdl-plugins
 base:
-  mdlbranch: "502"
+  mdlbranch: "405"
   source:
     git:
       remotes:
-        origin: https://github.com/moodle/moodle.git   # stock Moodle core — no MuTMS core changes
-      ref: v5.2.2
+        origin: https://github.com/moodle/moodle.git
+      ref: v4.5.14
+  strippublic: true
 plugins:
   - name: mutms/tool_mulib
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_muprog
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_mucertify
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_mutrain
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_murelation
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_muhome
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_musudo
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_muloginas
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_mupwned
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/enrol_muprog
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/block_muprog_my
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/block_muprogmyoverview
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/block_mucertify_my
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/customfield_mutrain
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/mod_mubook
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/certificateelement_muprog
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/certificateelement_mucertify
     source:
       git:
-        ref: v5.0.9.01
+        ref: v4.5.14.03
   - name: mutms/tool_certificate
     source:
       git:
-        ref: v5.0.8
+        ref: v4.5.14

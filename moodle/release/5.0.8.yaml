@@ -9,5 +9,5 @@ base:
       remotes:
         origin: https://github.com/moodle/moodle.git
       ref: v5.0.8
-  strippublic: true                 # no public/ layout (pre-5.1)
+  strippublic: true
 plugins: []

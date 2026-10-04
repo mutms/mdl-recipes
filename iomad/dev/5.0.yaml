@@ -9,5 +9,5 @@ base:
       remotes:
         origin: https://github.com/iomad/iomad.git
       ref: origin/IOMAD_500_STABLE
-  strippublic: true                 # no public/ layout (pre-5.1)
+  strippublic: true
 plugins: []
