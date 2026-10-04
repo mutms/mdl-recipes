@@ -3,7 +3,7 @@ name: Moodle 5.3.0
 contributed_by: mutms
 description: Unmodified Moodle 5.3.0 - a plain Moodle base recipe (no plugins).
 base:
-  mdlbranch: "502"
+  mdlbranch: "503"
   source:
     git:
       remotes:
