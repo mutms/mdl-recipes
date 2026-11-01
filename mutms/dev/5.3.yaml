@@ -171,6 +171,14 @@ plugins:
           origin: https://github.com/mutms/moodle-tool_mucatalog.git
         ref: origin/MOODLE_503_DEV
     localbranch: MOODLE_503_DEV
+  - name: mutms/tool_mucohort
+    relpath: public/admin/tool/mucohort
+    source:
+      git:
+        remotes:
+          origin: https://github.com/mutms/moodle-tool_mucohort.git
+        ref: origin/MOODLE_503_DEV
+    localbranch: MOODLE_503_DEV
   - name: mutms/mod_mudeck
     relpath: public/mod/mudeck
     source:
