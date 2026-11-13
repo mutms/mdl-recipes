@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/go/schema/recipe.schema.json
+name: Moodle 4.5.16
+contributed_by: mutms
+description: Unmodified Moodle 4.5.16 - a plain Moodle base recipe (no plugins).
+base:
+  mdlbranch: "405"
+  source:
+    git:
+      remotes:
+        origin: https://github.com/moodle/moodle.git
+      ref: v4.5.16
+  strippublic: true
+plugins: []

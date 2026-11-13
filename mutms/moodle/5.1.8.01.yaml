@@ -82,4 +82,4 @@ plugins:
   - name: mutms/tool_certificate
     source:
       git:
-        ref: v5.0.10
+        ref: v5.0.11
